@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 20th Birthday Sabina! 🎂</title>
+    <meta name="description" content="A special birthday greeting for Sabina on her 20th birthday">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Outfit:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="gift-box">
+                <div class="gift-lid">
+                    <div class="gift-bow"></div>
+                </div>
+                <div class="gift-body"></div>
+            </div>
+            <p class="preloader-text">Preparing something special...</p>
+        </div>
+    </div>
+
+    <!-- Floating particles canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Confetti canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <div class="hero-content">
+            <div class="sparkle-container">
+                <span class="sparkle">✦</span>
+                <span class="sparkle">✦</span>
+                <span class="sparkle">✦</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line title-line-1">Happy</span>
+                <span class="title-line title-line-2">
+                    <span class="age-number">20</span><span class="age-suffix">th</span>
+                </span>
+                <span class="title-line title-line-3">Birthday</span>
+            </h1>
+            <div class="hero-name-wrapper">
+                <span class="hero-name">Sabina</span>
+                <div class="name-underline"></div>
+            </div>
+            <p class="hero-date">May 13, 2026</p>
+            <div class="scroll-indicator">
+                <span>Scroll down</span>
+                <div class="scroll-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 5v14M19 12l-7 7-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Section -->
+    <section id="photo-section" class="section photo-section">
+        <div class="photo-container">
+            <div class="photo-frame">
+                <div class="photo-glow"></div>
+                <img src="4H2A7532.JPG" alt="Sabina" class="sabina-photo" id="sabina-photo">
+                <div class="photo-overlay"></div>
+            </div>
+            <div class="photo-caption">
+                <span class="caption-icon">👑</span>
+                <p>The Birthday Queen</p>
+            </div>
+        </div>
+        <div class="floating-emojis">
+            <span class="floating-emoji" style="--delay: 0s; --x: 10%;">🎂</span>
+            <span class="floating-emoji" style="--delay: 1s; --x: 25%;">🎈</span>
+            <span class="floating-emoji" style="--delay: 2s; --x: 40%;">🎁</span>
+            <span class="floating-emoji" style="--delay: 0.5s; --x: 60%;">🌸</span>
+            <span class="floating-emoji" style="--delay: 1.5s; --x: 75%;">💖</span>
+            <span class="floating-emoji" style="--delay: 2.5s; --x: 90%;">✨</span>
+        </div>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message-section" class="section message-section">
+        <div class="message-container">
+            <div class="message-card">
+                <div class="card-decoration top-left">✿</div>
+                <div class="card-decoration top-right">✿</div>
+                <div class="card-decoration bottom-left">✿</div>
+                <div class="card-decoration bottom-right">✿</div>
+                <h2 class="message-title">Dear Sabina,</h2>
+                <div class="message-body">
+                    <p class="message-text fade-in-text">
+                        Welcome to your <strong>twenties</strong>! 🎉
+                        It's crazy how life works sometimes — we were classmates back in 3rd and 4th grade, 
+                        then life took us in different directions. I even transferred to the same school you'd already left. 
+                        But somehow, years later, I randomly found your Instagram in 11th grade — 
+                        and just like that, we reconnected. That was about <strong>3 years ago</strong>, and I'm so grateful for it.
+                    </p>
+                    <p class="message-text fade-in-text">
+                        In these years I've gotten to know someone truly remarkable. 
+                        You are one of the <strong>kindest, most supportive</strong> people I know — 
+                        always there when it matters, always lifting others up. 
+                        You're incredibly <strong>smart and driven</strong>, crushing it at KBTU 
+                        and giving <strong>100% in everything</strong> you do. Your ambition is inspiring, 
+                        and your warmth makes everyone around you feel valued. 💫
+                    </p>
+                    <p class="message-text fade-in-text">
+                        May this new chapter bring you everything you've been working so hard for — 
+                        success, happiness, unforgettable adventures, and all the good things you truly deserve. 
+                        Keep being the amazing person you are.
+                    </p>
+                    <p class="message-signature fade-in-text">
+                        Happy Birthday, Sabina! Cheers to 20! 🎂🥂
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section id="wishes-section" class="section wishes-section">
+        <h2 class="section-title">
+            <span class="title-emoji">🌟</span>
+            Birthday Wishes
+            <span class="title-emoji">🌟</span>
+        </h2>
+        <div class="wishes-grid">
+            <div class="wish-card" style="--card-delay: 0s">
+                <div class="wish-icon">💖</div>
+                <h3>Love</h3>
+                <p>May your heart always be full of love, and may you be surrounded by people who cherish you deeply.</p>
+            </div>
+            <div class="wish-card" style="--card-delay: 0.15s">
+                <div class="wish-icon">🌟</div>
+                <h3>Success</h3>
+                <p>May every goal you set be conquered, every dream you have come true, and every path lead to greatness.</p>
+            </div>
+            <div class="wish-card" style="--card-delay: 0.3s">
+                <div class="wish-icon">😊</div>
+                <h3>Happiness</h3>
+                <p>May laughter be your daily soundtrack, joy be your constant companion, and smiles never leave your face.</p>
+            </div>
+            <div class="wish-card" style="--card-delay: 0.45s">
+                <div class="wish-icon">✈️</div>
+                <h3>Adventures</h3>
+                <p>May life take you to the most amazing places, filled with unforgettable experiences and wonderful memories.</p>
+            </div>
+            <div class="wish-card" style="--card-delay: 0.6s">
+                <div class="wish-icon">🌸</div>
+                <h3>Health</h3>
+                <p>May you always be strong, healthy, and full of energy to chase every beautiful moment life offers you.</p>
+            </div>
+            <div class="wish-card" style="--card-delay: 0.75s">
+                <div class="wish-icon">🦋</div>
+                <h3>Growth</h3>
+                <p>May your twenties be a decade of incredible personal growth, wisdom, and becoming the best version of yourself.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section id="counter-section" class="section counter-section">
+        <div class="counter-container">
+            <h2 class="counter-title">20 Years of Amazing</h2>
+            <div class="counters">
+                <div class="counter-item">
+                    <span class="counter-number" data-target="7305">0</span>
+                    <span class="counter-label">Days of Being Wonderful</span>
+                </div>
+                <div class="counter-item">
+                    <span class="counter-number" data-target="175320">0</span>
+                    <span class="counter-label">Hours of Spreading Joy</span>
+                </div>
+                <div class="counter-item">
+                    <span class="counter-number" data-target="10519200">0</span>
+                    <span class="counter-label">Minutes of Pure Magic</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Section -->
+    <section id="final-section" class="section final-section">
+        <div class="final-content">
+            <div class="final-emoji-burst">
+                <span>🎉</span><span>🎊</span><span>🎈</span><span>🎂</span><span>🥳</span>
+            </div>
+            <h2 class="final-title">
+                <span class="letter" style="--i:0">H</span>
+                <span class="letter" style="--i:1">a</span>
+                <span class="letter" style="--i:2">p</span>
+                <span class="letter" style="--i:3">p</span>
+                <span class="letter" style="--i:4">y</span>
+                <span class="letter space" style="--i:5">&nbsp;</span>
+                <span class="letter" style="--i:6">B</span>
+                <span class="letter" style="--i:7">i</span>
+                <span class="letter" style="--i:8">r</span>
+                <span class="letter" style="--i:9">t</span>
+                <span class="letter" style="--i:10">h</span>
+                <span class="letter" style="--i:11">d</span>
+                <span class="letter" style="--i:12">a</span>
+                <span class="letter" style="--i:13">y</span>
+                <span class="letter" style="--i:14">!</span>
+            </h2>
+            <p class="final-subtitle">Here's to the next 20 years and beyond! 🥂</p>
+            <button id="celebrate-btn" class="celebrate-btn">
+                <span>🎉</span> Celebrate! <span>🎉</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Music toggle -->
+    <button id="music-toggle" class="music-toggle" aria-label="Toggle music">
+        <span class="music-icon">🎵</span>
+        <div class="music-bars">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </button>
+
+    <audio id="birthday-audio" loop preload="auto">
+        <source src="deti-online.com_-_happy-birthday-to-you.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
